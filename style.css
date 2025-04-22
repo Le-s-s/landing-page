@@ -1,0 +1,144 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.one {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    display: flex;
+}
+
+.links {
+    display: flex;
+    gap: 28px;
+    align-items: center;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 120px 110px;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: antiquewhite;
+}
+
+.sign-up button {
+    padding: 5px 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+}
+
+.sign-up-img {
+    display: flex;
+}
+
+.sign-up-img img {
+    background: antiquewhite;
+    padding: 120px 200px;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-header {
+    padding: 40px 24px;
+}
+
+.info-subtext {
+    display: flex;
+    gap: 22px;
+    padding-bottom: 96px;
+    width: 105px;
+    justify-content: center;
+}
+
+.info-subtext img {
+    width: 180px;
+    height: 180px;
+    border: aliceblue;
+    border-style: groove;
+    display: flex;
+}
+
+.info-pic {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.three {
+    background-color: lightgray;
+    display: flex;
+    padding: 131px;
+    flex-direction: column;
+}
+
+.three p, .three b {
+    margin: 0;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.three b {
+    align-self: flex-end;
+    padding: 0px 108px;
+}
+
+.four {
+    display: flex;
+    padding: 62px 152px;
+}
+
+
+.action-call {
+    padding: 20px 75px;
+    background: blue;
+    flex: 1;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    color: antiquewhite;
+}
+
+.five {
+    background: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
