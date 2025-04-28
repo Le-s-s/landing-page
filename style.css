@@ -1,77 +1,140 @@
-body {
+/* frame*/
+
+body, .page, .sign-up, .info-pic, .two, .three, .five, .header, .content, .four, .action-call, .links, .logo, .sign-up button, .sign-up-img, .info-subtext, .info-subtext img, .three p, .three b {
     display: flex;
+}
+
+body, .page, .one, .sign-up, .info-pic, .two, .three, .five {
     flex-direction: column;
+}
+
+.header, .content, .four, .action-call, .three b {
+    justify-content: center;
+}
+
+.five, .links, .two, .action-call, .three {
+    align-items: center;
+}
+
+.sign-up, .info-pic, .three p, .three b  {
+    flex-wrap: wrap;
+}
+
+.sign-up button {
+    align-self: flex-start;
+}
+
+h1, h2, body, .action-call p, .three p, .three b {
     margin: 0;
 }
 
-h1 {
-    margin: 0;
+button {
+    padding: 5px 15px;
+    width: 100px;
 }
 
-.page {
-    display: flex;
-    flex-direction: column;
+/* text */
+
+.sign-up h2 {
+    font-size: 48px;
 }
 
-.one {
-    background-color: #1F2937;
-    display: flex;
-    flex-direction: column;
-}
-
-.header {
-    display: flex;
-    justify-content: space-around;
+.info-header, .three {
+    font-size: 36px;
 }
 
 .logo {
     font-size: 24px;
-    font-weight: bold;
+}
+
+.links, .sign-up p, .action-call, .five {
+    font-size: 18px;
+}
+
+.sign-up h2, .info-header {
+    font-weight: 900;
+}
+
+.three {
+    font-style: italic;
+}
+
+button, .action-call, .info-subtext img {
+    border-radius: 10px;
+}
+
+/* border */
+
+.action-call button {
+    border-style: groove;
+    border-width: thin;
+}
+
+.info-subtext img {
+    border-style: solid;
+    border-width: thick;
+}
+
+/* colors */
+
+.info-header, .three {
+    color: #1F2937;
+}
+
+.sign-up h2, .logo {
     color: #F9FAF8;
-    display: flex;
+}
+
+.links, .sign-up p, .action-call, .five, button {
+    color: #e5e7eb;
+}
+
+button, .action-call {
+    background: #3882F6;
+}
+
+.one, .five {
+    background: #1F2937;
+}
+
+.three {
+    background: #e5e7eb;
+    }
+    
+.sign-up-img img {
+    background: #1f2930;
+}
+    
+.action-call button {
+    border: white;
+}
+
+.sign-up button, .info-subtext img {
+    border: #3882F6;
+}
+
+/* specialized */
+
+.header {
+    padding: 10px 110px;
+    gap: 445px;
 }
 
 .links {
-    display: flex;
     gap: 28px;
-    align-items: center;
-    font-size: 18px;
-    color: aliceblue;
 }
 
 .content {
-    display: flex;
-    justify-content: space-evenly;
     padding: 120px 110px;
+    gap: 60px;
 }
 
 .sign-up {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    color: antiquewhite;
-}
-
-.sign-up button {
-    padding: 5px 15px;
-    display: flex;
-    justify-content: flex-start;
-    align-self: flex-start;
-}
-
-.sign-up-img {
-    display: flex;
+    width: 408px;
 }
 
 .sign-up-img img {
-    background: antiquewhite;
     padding: 120px 200px;
-}
-
-.two {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .info-header {
@@ -79,66 +142,41 @@ h1 {
 }
 
 .info-subtext {
-    display: flex;
     gap: 22px;
     padding-bottom: 96px;
-    width: 105px;
-    justify-content: center;
 }
 
 .info-subtext img {
     width: 180px;
     height: 180px;
-    border: aliceblue;
-    border-style: groove;
-    display: flex;
+    border-style: solid;
+    border-width: thick;
 }
 
-.info-pic {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    flex: 1;
+.info-pic a {
+    width: 180px;
 }
 
 .three {
-    background-color: lightgray;
-    display: flex;
-    padding: 131px;
-    flex-direction: column;
+    padding: 65px;
 }
 
 .three p, .three b {
-    margin: 0;
-    font-size: 36px;
-    font-style: italic;
-    color: #1F2937;
-}
-
-.three b {
-    align-self: flex-end;
-    padding: 0px 108px;
+    width: 830px;
 }
 
 .four {
-    display: flex;
     padding: 62px 152px;
 }
 
 
 .action-call {
-    padding: 20px 75px;
-    background: blue;
-    flex: 1;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    color: antiquewhite;
+    width: 829px;
+    height: 112px;
+    gap: 112px;
+    padding: 10px 20px;
 }
 
 .five {
-    background: #1F2937;
-    display: flex;
-    justify-content: center;
-    padding: 15px;
+    padding: 20px;
 }
