@@ -22,6 +22,7 @@ body, .page, .one, .sign-up, .info-pic, .two, .three, .five {
 
 .sign-up button {
     align-self: flex-start;
+    justify-content: center;
 }
 
 h1, h2, body, .action-call p, .three p, .three b {
@@ -29,26 +30,26 @@ h1, h2, body, .action-call p, .three p, .three b {
 }
 
 button {
-    padding: 5px 15px;
-    width: 100px;
+    padding: 0.3125em 0.9375em;
+    width: 6.25em;
 }
 
 /* text */
 
 .sign-up h2 {
-    font-size: 48px;
+    font-size: 3em;
 }
 
 .info-header, .three {
-    font-size: 36px;
+    font-size: 2.25em;
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 1.5em;
 }
 
 .links, .sign-up p, .action-call, .five {
-    font-size: 18px;
+    font-size: 1.125em;
 }
 
 .sign-up h2, .info-header {
@@ -60,7 +61,7 @@ button {
 }
 
 button, .action-call, .info-subtext img {
-    border-radius: 10px;
+    border-radius: 0.625em;
 }
 
 /* border */
@@ -106,7 +107,7 @@ button, .action-call {
 }
     
 .action-call button {
-    border: white;
+    border-color: white;
 }
 
 .sign-up button, .info-subtext img {
@@ -116,67 +117,69 @@ button, .action-call {
 /* specialized */
 
 .header {
-    padding: 10px 110px;
-    gap: 445px;
+    gap: 28em;
+    padding: 0.625em 6.875em;
 }
 
 .links {
-    gap: 28px;
+    gap: 1.556em;
 }
 
 .content {
-    padding: 120px 110px;
-    gap: 60px;
+    padding: 7.5em 6.85em;
+    gap: 4em;
 }
 
 .sign-up {
-    width: 408px;
+    width: 25.5em;
 }
 
 .sign-up-img img {
-    padding: 120px 200px;
+    padding: 7.5em 12.5em;
 }
 
 .info-header {
-    padding: 40px 24px;
+    padding: 1.5em 2.5em;
 }
 
 .info-subtext {
-    gap: 22px;
-    padding-bottom: 96px;
+    gap: 1.375em;
+    padding-bottom: 6em;
 }
 
 .info-subtext img {
-    width: 180px;
-    height: 180px;
+    width: 11.25em;
+    height: 11.25em;
     border-style: solid;
     border-width: thick;
 }
 
 .info-pic a {
-    width: 180px;
+    width: 11.25em;
+    align-self: flex-end;
 }
 
 .three {
-    padding: 65px;
+    padding: 4.0625em;
 }
 
 .three p, .three b {
-    width: 830px;
+    width: 22.875em;
+    align-self: center;
 }
 
 .four {
-    padding: 62px 152px;
+    padding: 3.875em 9.5em;
 }
 
 
 .action-call {
-    width: 829px;
-    height: 112px;
-    gap: 112px;
-    padding: 10px 20px;
+    width: 46.875em;
+    height: 7em;
+    gap: 7em;
+    padding: 0.625em 1.25em;
 }
 
 .five {
-    padding: 20px;
+    padding: 1.25em;
 }
