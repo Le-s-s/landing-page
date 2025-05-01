@@ -31,7 +31,7 @@ h1, h2, body, .action-call p, .three p, .three b {
 
 button {
     padding: 0.3125em 0.9375em;
-    width: 6.25em;
+    width: 8.25em;
 }
 
 /* text */
@@ -143,7 +143,7 @@ button, .action-call {
 }
 
 .info-subtext {
-    gap: 1.375em;
+    gap: 3.375em;
     padding-bottom: 6em;
 }
 
@@ -174,9 +174,9 @@ button, .action-call {
 
 
 .action-call {
-    width: 46.875em;
+    width: 53.875em;
     height: 7em;
-    gap: 7em;
+    gap: 10em;
     padding: 0.625em 1.25em;
 }
 
